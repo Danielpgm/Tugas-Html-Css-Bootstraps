@@ -11,8 +11,8 @@ header{
 ul li{
     position: relative;
     display:inline;
-    margin-right: 10px;
-    left: 430px;
+    margin-right: 20px;
+    left: 380px;
 }
 ul li a{
     text-decoration: none;
@@ -48,6 +48,60 @@ a:hover{
 main{
     height: 50rem;
 }
+.genre-card{
+    /* background-color: #00917c; */
+    margin:5px 0px 5px 0px;
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.nav-button{
+    width: 170px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0px;
+}
+.test1{
+    height: 50px;
+    width: 160px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+.genre-link{
+    /* background-color: #fff2d4; */
+    width: 160px;
+    height: 50px;
+    position: absolute;
+    top: 10px;
+    text-align: center;
+}
+.gen-link{
+    text-decoration: none;
+    color: salmon;
+    font-family: 'Roboto Mono', monospace;
+}
+.cover::after{
+    content: "";
+    width: 160px;
+    height: 50px;
+    background-color:rgb(199, 199, 199);
+    position: absolute;
+    opacity: 0.3;
+}
+.card-hover{
+    background-color: seagreen;
+    width: 20px;
+    height: 20px;
+}
+.baris{
+    height: 70px;
+    /* background-color:sienna; */
+}
+.tombol{
+    background-color: rgb(15, 47, 73);
+    width:60px;
+}
 .theme{
     /* background-color: hotpink; */
     width: auto;
@@ -57,18 +111,11 @@ main{
 .main-theme{
     font-family: 'Special Elite', cursive;
     font-size: 30px;
-    background-color: blanchedalmond;
-}
-.baris{
-    height: 50px;
-    background-color:sienna;
-}
-.tombol{
-    background-color: rgb(15, 47, 73);
-    width:60px;
+    background-color: #00917c;
+    color: white;
 }
 .flex-container{
-    background-color:sandybrown;
+    /* background-color:sandybrown; */
     width: auto;
     height: 550px;
     margin: auto;
@@ -84,7 +131,29 @@ main{
 .card-image-top{
     height:50px;
 }
-
+.gambar1{
+    width: auto;
+    height: 200px;
+}
+.card-body{
+    background-color: #00917c;
+}
+.card-title{
+    background-color: #025955;
+    width: auto;
+    height: 50px;
+    text-align: center;
+    color: white;
+}
+.card-text{
+    width: auto;
+    height: 250px;
+    overflow: scroll;
+}
+.footer{
+    background-color: rgb(161, 65, 55);
+    height: 200px;
+}
 @media(max-width: 800px){
 
 }
