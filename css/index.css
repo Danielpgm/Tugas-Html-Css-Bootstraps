@@ -81,7 +81,7 @@ main{
     color: salmon;
     font-family: 'Roboto Mono', monospace;
 }
-.cover::after{
+.cover::before{
     content: "";
     width: 160px;
     height: 50px;
@@ -150,10 +150,25 @@ main{
     height: 250px;
     overflow: scroll;
 }
-.footer{
-    background-color: rgb(161, 65, 55);
-    height: 200px;
+
+footer{
+    background-color: sandybrown;
+    position: relative;
+    height: 300px;
 }
+
+.bottom-footer{
+    /* background-color: #025955; */
+    text-align: center;
+    width: 300px;
+    height: auto;
+    position: absolute;
+    margin: auto;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
 @media(max-width: 800px){
 
 }
